@@ -238,5 +238,18 @@
         app:layout_constraintTop_toTopOf="@+id/imageViewFilme2"
         app:srcCompat="@drawable/f3" />
 
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juliana Brommonschenkel Corrêa"
+        android:textColor="@color/menunavegacao"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
